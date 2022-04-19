@@ -1,0 +1,19 @@
+{
+  "name": "threading_emulator",
+  "version": "1.0.0",
+  "description": "Lab two  name: Ruixiang Han netid : rh2981",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertosarus23/threading_simulator.git"
+  },
+  "author": "Ruixiang Han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertosarus23/threading_simulator/issues"
+  },
+  "homepage": "https://github.com/albertosarus23/threading_simulator#readme"
+}

@@ -1,0 +1,100 @@
+in/sched-simulator 2 1 3 2 3 2 3 2 3 2
+Scheduling policy is FCFS
+R1 is 3
+R1 is 3
+Scheduling the set of tasks
+Task: T0         arrivalDate:0           state:upcoming          computations:0/7         cycleinblock:-352255873 
+Task: T1         arrivalDate:0           state:upcoming          computations:0/7         cycleinblock:-1962734112 
+Initializing job queue
+Initializing 1 job queue(s)
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 1: T0
+Task: T0         arrivalDate:0           state:running   computations:1/7         cycleinblock:0 
+Task: T1         arrivalDate:0           state:ready             computations:0/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 2: T0
+Task: T0         arrivalDate:0           state:running   computations:2/7         cycleinblock:0 
+Task: T1         arrivalDate:0           state:ready             computations:0/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 3: T0
+Task: T0         arrivalDate:0           state:running   computations:3/7         cycleinblock:0 
+Task: T1         arrivalDate:0           state:ready             computations:0/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 4: T1
+Task: T0         arrivalDate:0           state:blocked           computations:3/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:running   computations:1/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 5: T1
+Task: T0         arrivalDate:0           state:blocked           computations:3/7         cycleinblock:2 
+Task: T1         arrivalDate:0           state:running   computations:2/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 6: T1
+Task: T0         arrivalDate:0           state:ready             computations:3/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:running   computations:3/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 7: T0
+Task: T0         arrivalDate:0           state:running   computations:4/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:ready             computations:3/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 8: T0
+Task: T0         arrivalDate:0           state:running   computations:5/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:ready             computations:3/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 9: T0
+Task: T0         arrivalDate:0           state:running   computations:6/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:ready             computations:3/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 10: T1
+Task: T0         arrivalDate:0           state:blocked           computations:6/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:running   computations:4/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 11: T1
+Task: T0         arrivalDate:0           state:blocked           computations:6/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:running   computations:5/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 12: T1
+Task: T0         arrivalDate:0           state:ready             computations:6/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:running   computations:6/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 13: T0
+Task: T0         arrivalDate:0           state:running   computations:7/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:ready             computations:6/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T0 T1 
+
+Time 14: T1
+Task: T0         arrivalDate:0           state:terminated        computations:7/7         cycleinblock:1 
+Task: T1         arrivalDate:0           state:running   computations:7/7         cycleinblock:0 
+Nb of queues 1
+Q0 => T1 
+
+Time 15:  no task to schedule
+
+
+All done after 14 units of time
